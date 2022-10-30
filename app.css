@@ -1,0 +1,77 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.track-duration {
+  color: #17B22A;
+}
+
+.track-title {
+  color: black;
+  text-decoration: none;
+}
+
+.track-source {
+  color: black;
+  text-decoration: none;
+}
+
+.track-tap {
+  color: black;
+  text-decoration: none;
+}
+
+.tracks {
+  list-style: none;
+  margin-left:0;
+  margin-top: 32px;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.track a {
+  text-decoration: none;
+}
+
+.track {
+  text-decoration: none;
+  width: 100%;
+  font-size: 18px;
+  display: inline-block;
+  padding: 4px 10px 4px;
+  color: #333333;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: 1px solid #ccc;
+}
+
+.search-query, .register-name {
+  position: fixed;
+  top: 10px;
+  left: 8px;
+  width: 99%;
+  width: calc(100% - 16px);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 100;
+  outline: none;
+  padding: 10px;
+}
+
+audio {
+  margin-left: 50px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+audio::-webkit-media-controls-play-button {
+  margin-left: 4px;
+  width: 30px;
+}
+
+audio::-webkit-media-controls-panel {
+  width: 40px;
+  border-radius: 18px;
+}
